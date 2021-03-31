@@ -200,11 +200,11 @@ Bug reports, feedback, and comments are very welcome, and they can be sent to dm
 
 ## Authors and versions
 
-SteParKin was originally written in Fortran by David Montes and was described in Montes et al. 2001b. Since then, the code has been enhanced and rewritten in IDL and Python by H. Tabernero and A. J. Domí­nguez-Fernández, respectively. 
+SteParKin was originally written in Fortran and later in IDL by David Montes and H.M. Tabernero and was described in Montes et al. 2001b. Since then, the code has been enhanced and rewritten in Python by A.J. Domínguez-Fernández, respectively. 
 
 ## Citation
 
-If the user wants to use SteParKin as part of a scientific work, please, cite Montes et al. 2001b and Cortés-Contreras et al. 2020. 
+If the user wants to use SteParKin as part of a scientific work, please, cite Montes et al. 2001b and Cortés-Contreras et al. 2021. 
 
 ## Acknowledgements
 
