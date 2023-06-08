@@ -185,13 +185,15 @@ Using matplotlib 2.2.3 some plot features are badly drawn.
 
 * [Bensby et al. 2003] (http://ui.adsabs.harvard.edu/abs/2003A%26A...410..527B/abstract)
 * [Bensby et al. 2005] (http://ui.adsabs.harvard.edu/abs/2005A%26A...433..185B/abstract)
-* Cortés-Contreras et al. 2023
+* [Cortés-Contreras et al. 2020] (https://ui.adsabs.harvard.edu/abs/2020sea..confE.131C/abstract)
+* [Cortés-Contreras et al. 2023], A&A, in prep.
 * [Crundall et al. 2019] (https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3625C/abstract)
 * [Eggen (1984e)] (https://ui.adsabs.harvard.edu/abs/1984AJ.....89.1350E/abstract)
 * [Eggen (1989c)] (https://ui.adsabs.harvard.edu/abs/1989PASP..101..366E/abstract)
 * [Gagné et al. 2018] (https://ui.adsabs.harvard.edu/abs/2018ApJ...856...23G/abstract)
 * [Johnson & Soderblom (1987)] (https://ui.adsabs.harvard.edu/abs/1987AJ.....93..864J/abstract)
 * [Montes et al. 2001] (http://ui.adsabs.harvard.edu/abs/2001MNRAS.328...45M/abstract)
+* [Montes et al. 2023] JOSS, in prep.
 * [Ridel 2016] (https://ui.adsabs.harvard.edu/abs/2016ascl.soft01011R/abstract)
 
 ## Feedback
@@ -204,7 +206,7 @@ SteParKin was originally written in Fortran and later in IDL by D. Montes and H.
 
 ## Citation
 
-If the user wants to use SteParKin as part of a scientific work, please, cite Montes et al. 2001 and Cortés-Contreras et al. 2023. 
+If the user wants to use SteParKin as part of a scientific work, please, cite Montes et al. 2001 and Cortés-Contreras et al. 2020. 
 
 ## Acknowledgements
 
