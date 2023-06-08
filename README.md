@@ -185,13 +185,13 @@ Using matplotlib 2.2.3 some plot features are badly drawn.
 
 * [Bensby et al. 2003] (http://ui.adsabs.harvard.edu/abs/2003A%26A...410..527B/abstract)
 * [Bensby et al. 2005] (http://ui.adsabs.harvard.edu/abs/2005A%26A...433..185B/abstract)
-* Cortés-Contreras et al. 2020
+* Cortés-Contreras et al. 2023
 * [Crundall et al. 2019] (https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3625C/abstract)
 * [Eggen (1984e)] (https://ui.adsabs.harvard.edu/abs/1984AJ.....89.1350E/abstract)
 * [Eggen (1989c)] (https://ui.adsabs.harvard.edu/abs/1989PASP..101..366E/abstract)
 * [Gagné et al. 2018] (https://ui.adsabs.harvard.edu/abs/2018ApJ...856...23G/abstract)
 * [Johnson & Soderblom (1987)] (https://ui.adsabs.harvard.edu/abs/1987AJ.....93..864J/abstract)
-* [Montes et al. 2001b] (http://ui.adsabs.harvard.edu/abs/2001MNRAS.328...45M/abstract)
+* [Montes et al. 2001] (http://ui.adsabs.harvard.edu/abs/2001MNRAS.328...45M/abstract)
 * [Ridel 2016] (https://ui.adsabs.harvard.edu/abs/2016ascl.soft01011R/abstract)
 
 ## Feedback
@@ -200,12 +200,12 @@ Bug reports, feedback, and comments are very welcome, and they can be sent to dm
 
 ## Authors and versions
 
-SteParKin was originally written in Fortran and later in IDL by David Montes and H.M. Tabernero and was described in Montes et al. 2001b. Since then, the code has been enhanced and rewritten in Python by A.J. Domínguez-Fernández, respectively. 
+SteParKin was originally written in Fortran and later in IDL by D. Montes and H.M. Tabernero and was described in Montes et al. 2001. Since then, the code has been enhanced and rewritten in Python by D. Montes and A.J. Domínguez-Fernández. 
 
 ## Citation
 
-If the user wants to use SteParKin as part of a scientific work, please, cite Montes et al. 2001b and Cortés-Contreras et al. 2021. 
+If the user wants to use SteParKin as part of a scientific work, please, cite Montes et al. 2001 and Cortés-Contreras et al. 2023. 
 
 ## Acknowledgements
 
-The authors wish to thank to M. Cortés-Contreras, J. A. Caballero, and C. Cifuentes their comments, which have improved significantly the quality of the code. 
+The authors wish to thank to M. Cortés-Contreras, J.A. Caballero, and C. Cifuentes their comments, which have improved significantly the quality of the code. 
