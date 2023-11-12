@@ -23,6 +23,37 @@ Steparkin is a code that uses the Galactic-space velocity components (U, V, W) o
 # Statement of need
 
 
+# Scheme
+
+The code is constituted by 3 main functions:
+
+<div><li style="text-align: justify"><b>spk_groups</b>: This function associates stars to a young moving groups or associations if its Galactic-space velocity components are within the 3D ellipsoid that defines each moving group or association. The ellipsoids are defined in the UVW space and their parameters are recorded in the association_parameters.csv file. This function also determines to which stellar population (thin disk (D), thick disk (TD), in between them (TD-D), or halo (H)) the star belongs following the probabilistic approach described in Bensby et al. 2003, 2005. The values of the parameters that define each population (the observed fraction in the solar neighborhood (X_ns), the characteristic velocity dispersions (sig_u, sig_v, sig_w), and the asymmetric drift (v_asym)) are stored in the param_prob_populations.csv file. Note that CSV files must be in the same directory as the function (spk_groups.py) for this to work. The optional parameter file_name takes a string to be included in the names of the output files. The default value is empty.
+
+The input file (spk_wrapper, see below) or input DataFrame (spk_groups) must have the following columns: </li></div>
+
+| Column | Description |
+| :------:|:-----------|
+| NAME |  name of the star (numbers are allowed) | 
+| RA |  right ascension in degrees | 
+| DEC|  declination in degrees | 
+| PMRA|  proper motion in right ascension (&mu;<sub>&alpha;</sub>cos(&delta;)) in mas yr-1 | 
+| EPMRA |  error of proper motion in right ascension in mas yr-1 | 
+| PMDEC|  proper motion in declination in mas yr-1 | 
+| EPMDEC|  error of proper motion in declination in mas yr-1 | 
+| RV |  radial velocity in km s-1 | 
+| ERV |  error of radial velocity in km s-1 | 
+| PLX (optional<sup>*</sup>) |  parallax in mas | 
+| EPLX (optional<sup>*</sup>) |  error of parallax in mas | 
+| d (optional<sup>*</sup>)  |  distance in pc | 
+| ed (optional<sup>*</sup>)  |  error of distance in pc | 
+
+<blockquote>
+  
+<h6> <sup>*</sup> The user use spk_wrapper can choose between giving the parallax or the distance (and the corresponding error) of the stars (always one of them for each set analyzed at a time). If only distances and their error are given, the parallaxes and their errors are calculated from them. If both are provided, distance is ignored. However, if spk_groups is used independently, only PLX and EPLX are allowed. </h6>
+
+</blockquote>
+
+
 # Acknowledgements
 
 We acknowledge contributions from ...
