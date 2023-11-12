@@ -7,6 +7,10 @@ authors:
     orcid: 0000-0002-7779-238X
     equal-contrib: true
     affiliation: '1'
+   - name: H.M. Tabernero
+    orcid: 0000-0002-8087-4298
+    equal-contrib: true
+    affiliation: '1'
 affiliations:
    - name: 'Departamento de Física de la Tierra y Astrofísica 
 and IPARCOS-UCM (Instituto de Física de Partículas y del Cosmos de la UCM), 
