@@ -1,4 +1,4 @@
-title: 'Gala: A Python package for galactic dynamics'
+title: 'SteParKin: a Python code to determinae Galactic-space velocity components and evaluate membership to stellar kinematic groups and associations and assign stellar populations'
 tags:
   - Python
   - astronomy
