@@ -1,7 +1,9 @@
-title: 'SteParKin: a Python code to determinae Galactic-space velocity components and evaluate membership to stellar kinematic groups and associations and assign stellar populations'
+title: 'SteParKin: a Python code to determine Galactic-space velocity components, evaluate membership to stellar kinematic groups and associations and assign stellar populations'
+
 tags:
   - Python
   - astronomy
+    
 authors:
   - name: David Montes
     orcid: 0000-0002-7779-238X
