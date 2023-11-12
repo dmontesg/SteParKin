@@ -18,7 +18,7 @@ Facultad de Ciencias F\'{i}sicas, Universidad Complutense de Madrid, E-28040, Ma
 
 # Summary
 
-Steparkin is a code that uses the Galactic-space velocity components (U, V, W) of the stars to evaluate their membership to young (< 1 Gyr) kinematic moving groups and associations (5 by default) and to assign their stellar populations as proposed by Bensby et al. 2003, 2005. The code takes as input a file that contains the equatorial coordinates (in J2000 and epoch 2000), proper motions, parallax/distance, and radial velocity (along with their corresponding errors) of a star and retrieves a CSV file and a series of plots (UV and UW planes and the Toomre diagram) as outputs. The CSV file contains the Galactic-space velocity components (U, V, W), their corresponding errors (computed following the approach described in @JohnsonSoderblom1987 ), the associations and/or groups to which the star is candidate, and its most probable stellar population along with the name, the value, and error in radial velocity of the star from the input file.
+Steparkin is a code that uses the Galactic-space velocity components (U, V, W) of the stars to evaluate their membership to young (< 1 Gyr) kinematic moving groups and associations (5 by default) and to assign their stellar populations as proposed by Bensby et al. 2003, 2005. The code takes as input a file that contains the equatorial coordinates (in J2000 and epoch 2000), proper motions, parallax/distance, and radial velocity (along with their corresponding errors) of a star and retrieves a CSV file and a series of plots (UV and UW planes and the Toomre diagram) as outputs. The CSV file contains the Galactic-space velocity components (U, V, W), their corresponding errors (computed following the approach described in ´@JohnsonSoderblom1987´), the associations and/or groups to which the star is candidate, and its most probable stellar population along with the name, the value, and error in radial velocity of the star from the input file.
 
 # Statement of need
 
@@ -37,7 +37,7 @@ The input file (spk_wrapper, see below) or input DataFrame (spk_groups) must hav
 | NAME |  name of the star (numbers are allowed) | 
 | RA |  right ascension in degrees | 
 | DEC|  declination in degrees | 
-| PMRA|  proper motion in right ascension (mu;<sub>alpha;</sub>cos(delta;)) in mas yr-1 | 
+| PMRA|  proper motion in right ascension (mu<sub>alpha</sub>cos(delta)) in mas yr-1 | 
 | EPMRA |  error of proper motion in right ascension in mas yr-1 | 
 | PMDEC|  proper motion in declination in mas yr-1 | 
 | EPMDEC|  error of proper motion in declination in mas yr-1 | 
