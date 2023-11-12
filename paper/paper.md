@@ -26,8 +26,7 @@ Steparkin is a code that uses the Galactic-space velocity components (U, V, W) o
 # Acknowledgements
 
 We acknowledge contributions from ...
-and the Spanish {Ministerio de Ciencia e Innovaci\'{o}n} through projects
-PID2019-109522GB-C5[1:4]/AEI/10.13039/501100011033
+We acknowledge financial support from the Agencia Estatal de Investigación of the Spanish Ministerio de Ciencia e Innovación through projects PID2019-109522GB-C5[1:4]/AEI/10.13039/501100011033
 
 
 
