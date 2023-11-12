@@ -37,7 +37,7 @@ The input file (spk_wrapper, see below) or input DataFrame (spk_groups) must hav
 | NAME |  name of the star (numbers are allowed) | 
 | RA |  right ascension in degrees | 
 | DEC|  declination in degrees | 
-| PMRA|  proper motion in right ascension (&mu;<sub>&alpha;</sub>cos(&delta;)) in mas yr-1 | 
+| PMRA|  proper motion in right ascension (mu;<sub>alpha;</sub>cos(delta;)) in mas yr-1 | 
 | EPMRA |  error of proper motion in right ascension in mas yr-1 | 
 | PMDEC|  proper motion in declination in mas yr-1 | 
 | EPMDEC|  error of proper motion in declination in mas yr-1 | 
