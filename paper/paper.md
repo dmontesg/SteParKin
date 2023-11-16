@@ -1,7 +1,9 @@
 title: SteParKin: a Python code to determine Galactic-space velocity components, evaluate membership to stellar kinematic groups and assign stellar populations
+
 tags:
   - Python
   - astronomy
+
 authors: 
   - name: David Montes
     orcid: 0000-0002-7779-238X
@@ -10,10 +12,13 @@ authors:
  - name: Hugo M. Tabernero
     orcid: 0000-0002-8087-4298
     affiliation: 1 
+
 affiliations:
  - name: Departamento de Física de la Tierra y Astrofísica and IPARCOS-UCM (Instituto de Física de Partículas y del Cosmos de la UCM), Facultad de Ciencias Físicas, Universidad Complutense de Madrid, E-28040, Madrid, Spain
    index: 1
+
 date: 16 November 2023
+
 bibliography: paper.bib
 
 # Summary
