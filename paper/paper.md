@@ -1,4 +1,3 @@
----
 title: SteParKin a Python code to determine Galactic-space velocity components, evaluate membership to stellar kinematic groups and assign stellar populations
 tags:
   - Python
@@ -16,7 +15,6 @@ affiliations:
    index: 1
 date: 16 November 2023
 bibliography: paper.bib
----
 
 # Summary
 
