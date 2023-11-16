@@ -9,6 +9,8 @@ authors:
 affiliations:
     - name: Departamento de Física de la Tierra y Astrofísica and IPARCOS-UCM (Instituto de Física de Partículas y del Cosmos de la UCM), Facultad de Ciencias Físicas, Universidad Complutense de Madrid, E-28040, Madrid, Spain
    index: 1 
+   date: 16 November 2023
+bibliography: paper.bib
 
 # Summary
 
