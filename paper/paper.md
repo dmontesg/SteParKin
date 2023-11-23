@@ -6,7 +6,7 @@ tags:
 authors: 
 - name: David Montes
     orcid: 0000-0002-7779-238X
-    affiliation: 1 
+    affiliation: 1
 - name: Hugo M. Tabernero
     orcid: 0000-0002-8087-4298
     affiliation: 1 
