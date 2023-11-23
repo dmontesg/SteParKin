@@ -6,15 +6,25 @@ Python astronomy
 authors: 
 name: David Montes
     orcid: 0000-0002-7779-238X
-    equal-contrib: true
     affiliation: 1 
 name: Hugo M. Tabernero
     orcid: 0000-0002-8087-4298
     affiliation: 1 
-
+name: Carlos Cifuentes
+    orcid: 0000-0003-1715-5087
+    affiliation: 2
+name: Miriam Cortés-Contreras
+    orcid: 0000-0003-3734-9866 
+    affiliation: 1 
+name: Jose Antonio Caballero 
+    orcid: 
+    affiliation: 2
+    
 affiliations:
 name: Departamento de Física de la Tierra y Astrofísica and IPARCOS-UCM (Instituto de Física de Partículas y del Cosmos de la UCM), Facultad de Ciencias Físicas, Universidad Complutense de Madrid, E-28040, Madrid, Spain
 index: 1
+name: Centro de Astrobiología (CSIC-INTA), ESAC, Camino Bajo del Castillo s/n, 28692 Villanueva de la Cañada, Madrid, Spain
+index: 2
 
 date: 23 November 2023
 
@@ -73,6 +83,43 @@ The standard output file structure is as follows:
 
 <div><li style="text-align: justify"><b>spk_graphs</b>: This function plots Boettlinger diagrams (the UV and UW planes), with and without zoom in on the Eggen's young disk, and the Toomre diagram. This function also makes use of the parameter file association_parameters.csv. The parameters of the function are: </li></div>
 
+```Python
+"""
+    Parameters
+    ----------
+
+    df_out :  DataFrame
+        The DataFrame resulting from spk_groups or, at least, one containing
+        the following columns: U, V, and W.
+    file_name : str, optional
+        A string to be included in the names of the output figures. The default
+        value is empty.
+    dict_colors_groups : dict or dict-like str, optional
+    dict_colors_intergroup_stars : dict or dict-like str, optional
+        dict_colors_groups and dict_colors_intergroup_stars are python
+        dictionaries or dictionary-like strings containing the name (key) and
+        color (value) given by the user to the stars that fall in one
+        association/group or between several associations/groups apart from
+        those provided by default. To "remove" a default
+        association/group/intergroup from the graphics, the corresponding
+        dictionary must contain "default name": None (for example, to avoid
+        showing LA stars in red, dict_colors_groups must contain "LA": None).
+    autocomplete_colors : boolean, optional
+        In case the input DataFrame contains stars belonging to any new
+        association, group, or intergroup and it has not been defined in the
+        corresponding dictionary, the "autocomplete_colors" parameter sets
+        whether showing these stars in a randomly generated color (True) or
+        displaying them according to their stellar population if given (False).
+        Caution: autocomplete_colors only avoid repetition if the colors are
+        given by their hexadecimal name.
+    independent : boolean, optional
+        Different figures for each UV and WV plane? Default is False.
+    gf_uw2 : str, optional
+        The gf_uw2 parameter sets the aspect ratio of the Toomre diagram. The
+        values, circumferences (default) or ellipses, indicate how lines of
+        constant total velocity look in the resulting diagram.
+"""
+```
 
 
 # Acknowledgements
