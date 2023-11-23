@@ -4,25 +4,25 @@ tags:
   - Python
   - astronomy
 authors: 
-name: David Montes
+- name: David Montes
     orcid: 0000-0002-7779-238X
     affiliation: 1 
-name: Hugo M. Tabernero
+- name: Hugo M. Tabernero
     orcid: 0000-0002-8087-4298
     affiliation: 1 
-name: Carlos Cifuentes
+- name: Carlos Cifuentes
     orcid: 0000-0003-1715-5087
     affiliation: 2
-name: Miriam Cortés-Contreras
+- name: Miriam Cortés-Contreras
     orcid: 0000-0003-3734-9866 
     affiliation: 1 
-name: Jose Antonio Caballero 
-    orcid: 
+- name: Jose Antonio Caballero 
+    orcid: 0000-0002-7349-1387
     affiliation: 2
 affiliations:
-name: Departamento de Física de la Tierra y Astrofísica and IPARCOS-UCM (Instituto de Física de Partículas y del Cosmos de la UCM), Facultad de Ciencias Físicas, Universidad Complutense de Madrid, E-28040, Madrid, Spain
+- name: Departamento de Física de la Tierra y Astrofísica and IPARCOS-UCM (Instituto de Física de Partículas y del Cosmos de la UCM), Facultad de Ciencias Físicas, Universidad Complutense de Madrid, E-28040, Madrid, Spain
 index: 1
-name: Centro de Astrobiología (CSIC-INTA), ESAC, Camino Bajo del Castillo s/n, 28692 Villanueva de la Cañada, Madrid, Spain
+- name: Centro de Astrobiología (CSIC-INTA), ESAC, Camino Bajo del Castillo s/n, 28692 Villanueva de la Cañada, Madrid, Spain
 index: 2
 date: 23 November 2023
 bibliography: paper.bib
