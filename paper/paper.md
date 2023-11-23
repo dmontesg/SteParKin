@@ -121,6 +121,61 @@ The standard output file structure is as follows:
 """
 ```
 
+<div><li style="text-align: justify"><b>spk_wrapper</b>: This function serves as a wrapper for the other two. It takes as input the name of a .csv or .txt file (str) and return a .csv file and the plots (saved as pdf files). </li></div>
+
+<div style="text-align: justify">spk_groups and spk_graphics can be used independently of each other and spk_wrapper in the Python interpretator, allowing the users a more flexible use of the individual functions. Thus, the users can skip the restriction about the input file extension, do only the assignments without doing the plots, or vice versa. </div>
+
+
+## Running SteParKin
+
+Using the command line:
+
+```
+$ python spk_wrapper.py [-h] -i I [-e E] [-fn FN] [-dcg DCG] [-dci DCI][-ac AC] [-ind IND] [-g G]
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -i I        the input file containing the data (.txt or .csv)
+  -e E        set how the code deals with zeros in the errors: drop (default)
+              or zeros
+  -fn FN      set a string that all the output files must contain
+  -dcg DCG    set colors for new groups or change those given by default (str-
+              like python dictionary)
+  -dci DCI    set colors for new intergroup stars or change those given by
+              default (str-like python dictionary)
+  -ac AC      should the stars candidates to any association, group, or
+              intergroup not defined in the dictionaries be shown in a random
+              color? Default is False
+  -ind IND    Independent graphs for each plane? Default is False
+  -g G        set the aspect ratio of the Toomre diagram: circumferences
+              (default) or ellipses
+```
+
+Using the Python interpreter:
+
+* Using the wrapper:
+
+```python
+>>> import spk_wrapper as spkw
+>>> spkw.spk_wrapper(input_file, errors="drop", file_name="", dict_colors_groups=None,
+				     dict_colors_intergroup_stars=None, autocomplete_colors=False,
+				     independent=False, gf_uw2="circumferences")
+```
+
+* Running spk_groups and spk_graphs independently (note that the input is now a DataFrame in both cases):
+
+```python
+>>> import spk_groups as spkg
+>>> spkg.spk_groups(df, file_name="")
+```
+
+```python
+>>> import spk_graphs as spkgra
+>>> spkgra.spk_groups(input_file, file_name="", dict_colors_groups=None,
+				      dict_colors_intergroup_stars=None, autocomplete_colors=False,
+				      independent=False, gf_uw2="circumferences")
+```
+
 
 # Acknowledgements
 
@@ -131,6 +186,16 @@ We acknowledge financial support from the Agencia Estatal de Investigación of t
 
 # References
 
-Johnson & Soderblom 1987
+* [Bensby et al. 2003] (http://ui.adsabs.harvard.edu/abs/2003A%26A...410..527B/abstract)
+* [Bensby et al. 2005] (http://ui.adsabs.harvard.edu/abs/2005A%26A...433..185B/abstract)
+* [Cortés-Contreras et al. 2020] (https://ui.adsabs.harvard.edu/abs/2020sea..confE.131C/abstract)
+* [Cortés-Contreras et al. 2023], A&A, in prep.
+* [Crundall et al. 2019] (https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3625C/abstract)
+* [Eggen (1984e)] (https://ui.adsabs.harvard.edu/abs/1984AJ.....89.1350E/abstract)
+* [Eggen (1989c)] (https://ui.adsabs.harvard.edu/abs/1989PASP..101..366E/abstract)
+* [Gagné et al. 2018] (https://ui.adsabs.harvard.edu/abs/2018ApJ...856...23G/abstract)
+* [Johnson & Soderblom (1987)] (https://ui.adsabs.harvard.edu/abs/1987AJ.....93..864J/abstract)
+* [Montes et al. 2001] (http://ui.adsabs.harvard.edu/abs/2001MNRAS.328...45M/abstract)
+* [Ridel 2016] (https://ui.adsabs.harvard.edu/abs/2016ascl.soft01011R/abstract)
 
 
