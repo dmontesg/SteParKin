@@ -183,18 +183,18 @@ Using matplotlib 2.2.3 some plot features are badly drawn.
 
 ## References
 
-* [Bensby et al. 2003] (http://ui.adsabs.harvard.edu/abs/2003A%26A...410..527B/abstract)
-* [Bensby et al. 2005] (http://ui.adsabs.harvard.edu/abs/2005A%26A...433..185B/abstract)
-* [Cortés-Contreras et al. 2020] (https://ui.adsabs.harvard.edu/abs/2020sea..confE.131C/abstract)
-* [Cortés-Contreras et al. 2023], A&A, in prep.
-* [Crundall et al. 2019] (https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3625C/abstract)
-* [Eggen (1984e)] (https://ui.adsabs.harvard.edu/abs/1984AJ.....89.1350E/abstract)
-* [Eggen (1989c)] (https://ui.adsabs.harvard.edu/abs/1989PASP..101..366E/abstract)
-* [Gagné et al. 2018] (https://ui.adsabs.harvard.edu/abs/2018ApJ...856...23G/abstract)
-* [Johnson & Soderblom (1987)] (https://ui.adsabs.harvard.edu/abs/1987AJ.....93..864J/abstract)
-* [Montes et al. 2001] (http://ui.adsabs.harvard.edu/abs/2001MNRAS.328...45M/abstract)
+* Bensby et al. [2003A&A...410..527B](http://ui.adsabs.harvard.edu/abs/2003A%26A...410..527B/abstract)
+* Bensby et al. [2005A&A...433..185B](http://ui.adsabs.harvard.edu/abs/2005A%26A...433..185B/abstract)
+* Cortés-Contreras et al. [2020sea..confE.131C](https://ui.adsabs.harvard.edu/abs/2020sea..confE.131C/abstract)
+* Cortés-Contreras et al. [2024A&A...692A.206C](https://ui.adsabs.harvard.edu/abs/2024A%26A...692A.206C/abstract)
+* Crundall et al. [2019MNRAS.489.3625C](https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3625C/abstract)
+* Eggen [1984AJ.....89.1350E](https://ui.adsabs.harvard.edu/abs/1984AJ.....89.1350E/abstract)
+* Eggen [1989PASP..101..366E](https://ui.adsabs.harvard.edu/abs/1989PASP..101..366E/abstract)
+* Gagné et al. [2018ApJ...856...23G](https://ui.adsabs.harvard.edu/abs/2018ApJ...856...23G/abstract)
+* Johnson & Soderblom [1987AJ.....93..864J](https://ui.adsabs.harvard.edu/abs/1987AJ.....93..864J/abstract)
+* Montes et al. [2001MNRAS.328...45M](http://ui.adsabs.harvard.edu/abs/2001MNRAS.328...45M/abstract)
 * [Montes et al. 2023] JOSS, in prep.
-* [Ridel 2016] (https://ui.adsabs.harvard.edu/abs/2016ascl.soft01011R/abstract)
+* Ridel [2016ascl.soft01011R](https://ui.adsabs.harvard.edu/abs/2016ascl.soft01011R/abstract)
 
 ## Feedback
 
